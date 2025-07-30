@@ -7,6 +7,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+    //Single player
+    Snap game = new Snap("snap");
+    game.play();
+
+    //Two player
     Scanner s = new Scanner(System.in);
     System.out.println("Player 1 please enter your name");
     String player1 = s.nextLine();
