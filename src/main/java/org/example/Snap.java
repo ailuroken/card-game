@@ -57,7 +57,7 @@ public class Snap extends CardGame implements CanBeTwoPlayer {
                 Future<String> future = executor.submit(s::nextLine);
 
                 try {
-                    String input = future.get(4, TimeUnit.SECONDS);
+                    String input = future.get(2, TimeUnit.SECONDS);
                     if (input.trim().equalsIgnoreCase("snap")) {
                         System.out.println("Snap! " + currentPlayer.getName() + " wins!");
                     } else {
