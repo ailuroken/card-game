@@ -4,8 +4,8 @@ A simple game of snap created purely with Java. The game can be played with both
 
 ## Prerequisites
 
--Java
--Intellij IDEA (Community or Ultimate version)
+- Java
+- Intellij IDEA (Community or Ultimate version)
 
 ## 📌 Features
 
@@ -28,11 +28,17 @@ A simple game of snap created purely with Java. The game can be played with both
 ## ✍️ Example Output
 
 `Player 1 please enter your name`
+
 `Player1`
+
 `Player 2 please enter your name`
+
 `Player2`
+
 `Welcome to 2 Player Snap!`
+
 `When it's your turn and 2 cards match numbers, type 'snap' within 2 seconds to win`
+
 `Press enter to draw a card`
 
 `Player1 drew card: 10 of ♦`
@@ -46,7 +52,9 @@ A simple game of snap created purely with Java. The game can be played with both
 `Player2 drew card: 8 of ♠`
 
 `Player1 drew card: 8 of ♥`
+
 `snap`
+
 `"Snap! Player1 wins!"`
 
 ## 📁 Future Improvements
